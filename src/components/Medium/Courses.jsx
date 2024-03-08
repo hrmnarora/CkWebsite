@@ -35,8 +35,8 @@ export const Courses = () => {
     <div class="courses pb-24 bg-gradient-to-t w-full to-[#000008] from-[#000008] z-10  mb-24 flex items-center flex-col   h-fit">
         <div class="heading w-[90%] text-4xl md:text-5xl py-10  ">
             <div className='w-fit h-fit py-2 flex gap-2 items-center justify-center'>
-                <div className='w-2 h-2 bg-blue-500 rounded-full'></div>
-                <h3 className='text-xl text-blue-500'>Courses</h3>
+                <div className='w-2 h-2 bg-[#2340ff] rounded-full'></div>
+                <h3 className='text-xl text-[#2340ff]'>Courses</h3>
             </div>
           <h1 class="text-3xl md:text-4xl font-bold">
             Industry relevent Programs <br />
