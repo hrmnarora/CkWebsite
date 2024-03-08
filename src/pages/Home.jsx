@@ -32,7 +32,7 @@ export const Home = () => {
     // Add other testimonials here
   ];
   return (
-    <div className="bg-gradient-to-t relative items-center justify-center text-white flex-col  from-[#000008] to-[#060617] flex w-full">
+    <div className="bg-gradient-to-t relative items-center justify-center text-white flex-col  from-[#000008] to-[#0e0e35] flex w-full">
       {/* home heading  */}
       <HomeMain/>
       {/* <div class="courses z-10 w-[100vw] mb-24 flex items-center flex-col   h-fit">
