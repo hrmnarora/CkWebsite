@@ -68,7 +68,7 @@ export const Courses = () => {
             </p>
           </div>
           <button class="z-10 w-full  rounded-md mt-6 h-14 border flex justify-center items-center px-8 text-xl bg-white text-zinc-900">
-            <div class="font-medium">Start Learning for free</div>
+            <div class="font-medium">Get Now</div>
           </button>
           <p class="text-gray-400 font-medium mt-4 text-sm">
             Free for verified students, teachers, and maintainers of popular
@@ -95,7 +95,7 @@ export const Courses = () => {
             </p>
           </div>
           <button class="z-10 w-full  rounded-md mt-6 h-14 border flex justify-center items-center px-8 text-xl bg-white text-zinc-900">
-            <div class="font-medium">Start Learning for free</div>
+            <div class="font-medium">Get Now</div>
           </button>
           <p class="text-gray-400 font-medium mt-4 text-sm">
             Free for verified students, teachers, and maintainers of popular
