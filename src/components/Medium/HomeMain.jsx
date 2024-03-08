@@ -4,7 +4,7 @@ import { transition1 } from "../../transitions";
 
 export const HomeMain = () => {
   return (
-    <div className="bg-gradient-to-t w-full to-[#000008] from-[#0D0449]">
+    <div className="bg-gradient-to-t w-full to-[#000008] from-[#0a0337]">
       <motion.section
         initial={{ opacity: 0, y: "20%" }}
         animate={{ opacity: 1, y: "0" }}
@@ -12,9 +12,8 @@ export const HomeMain = () => {
         transition={transition1}
         className="h-[100vh] flex items-center justify-center flex-col"
       >
-
         <div className="headin md:w-[60vw] w-[70vw] z-10">
-          <h1 className="text-5xl md:text-6xl text-center  font-extrabold tracking-tight ">
+          <h1 className="text-5xl md:text-7xl lg:7xl text-center  font-bold tracking-tight ">
             Start coding{" "}
             <span className=" leading-tight bg-gradient-to-r from-white via-[#9372FF] to-[#4B69FF] text-transparent mr-3 bg-clip-text">
               instantly
