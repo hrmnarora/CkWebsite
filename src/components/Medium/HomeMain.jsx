@@ -15,7 +15,7 @@ export const HomeMain = () => {
         <div className="headin md:w-[60vw] w-[70vw] z-10">
           <h1 className="text-5xl md:text-7xl lg:7xl text-center  font-bold tracking-tight ">
             Start coding{" "}
-            <span className=" leading-tight bg-gradient-to-r from-white via-[#9372FF] to-[#4B69FF] text-transparent mr-3 bg-clip-text">
+            <span className=" leading-tight bg-gradient-to-r to-[#2b4ae3] from-white text-transparent mr-3 bg-clip-text">
               instantly
             </span>
             with Codekaro
