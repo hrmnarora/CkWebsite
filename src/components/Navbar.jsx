@@ -15,8 +15,8 @@ export const Navbar = () => {
   return (<>
     <MobileMenu isOpen={isMobileMenuOpen} closeMenu={closeMobileMenu}/>
 
-    <nav id="navbar" className="bg-[#060617] h-[70px] p-4 shadow-md w-[1100]">
-      <div className="container mx-auto  flex justify-between items-center">
+    <nav id="navbar" className={`${isMobileMenuOpen ? "bg-[#060617]" : "bg-[#0e0e35]"}  h-[70px] p-4 shadow-md w-[1100]`}>
+      <div className="container mx-auto  flex justify-between items-center transition-all">
         <div className="flex gap-4 items-center justify-center">
           <div className="text-white text-xl font-bold">CodeKaro</div>
 
