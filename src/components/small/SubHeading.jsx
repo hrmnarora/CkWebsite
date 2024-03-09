@@ -9,7 +9,7 @@ export const SubHeading = ({title, type, description}) => {
   return (
     <div ref={ref} className='lg:w-[60%] w-[80%] flex items-center'>
     <motion.div
-        className="heading  w-[80%] lg:w-[80%] text-4xl md:text-5xl py-10"
+        className="heading  w-[100%] lg:w-[80%] text-4xl md:text-5xl py-10"
         initial={{ opacity: 0, x: "-100%" }}
         animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -20 }}
         transition={{ duration: 0.8 ,delay: .5}}
