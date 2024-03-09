@@ -30,3 +30,4 @@ export const SubHeading = ({title, type, description}) => {
       </div>
   )
 }
+

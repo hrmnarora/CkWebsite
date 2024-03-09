@@ -2,6 +2,7 @@ import React from "react";
 import { HomeMain } from "../components/Medium/HomeMain";
 import { Courses } from "../components/Medium/Courses";
 import { Problems } from "../components/Medium/Problems";
+import { PlacedCompanies } from "../components/Medium/PlacedCompanies";
 import { Testimonials } from "../components/Medium/Testimonials";
 
 export const Home = () => {
@@ -11,6 +12,7 @@ export const Home = () => {
       <HomeMain />
       <Courses />
       <Problems/>
+      <PlacedCompanies/>
       <Testimonials/>
 
       {/* <div class="ProblemsFaced mt-24 z-10 w-[100vw] mb-36 flex items-center flex-col   h-fit">

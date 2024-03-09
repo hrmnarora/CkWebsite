@@ -3,7 +3,7 @@ import { SubHeading } from "../small/SubHeading";
 
 export const Problems = () => {
   return (
-    <div className="courses pb-24 pt-32 bg-black w-full z-10  flex items-center lg:justify-center flex-col   h-fit lg:flex-col">
+    <div className="courses pb-24 pt-32 bg-black w-full z-10  flex items-center lg:justify-center flex-col  h-fit lg:flex-col">
       <SubHeading
         type={"Problem"}
         title={"Problems faced by students"}
