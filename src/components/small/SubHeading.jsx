@@ -22,7 +22,7 @@ export const SubHeading = ({title, type, description}) => {
           <h1 className="text-3xl md:text-6xl font-bold">
             {title}
           </h1>
-          <p className="text-lg w-[80%] font-medium text- mt-3 text-zinc-300 ">
+          <p className="text-lg w-[100%] font-medium text- mt-3 text-zinc-300 ">
             {description}
           </p>
         </div>
