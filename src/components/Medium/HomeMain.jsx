@@ -30,7 +30,10 @@ export const HomeMain = () => {
         </div>
         <div className="flex gap-4 flex-col md:flex-row mt-8 items-center justify-center">
           <button className="z-10 w-fit  rounded-md  h-14 border flex items-center px-8 text-xl bg-white text-zinc-900">
-            <div className="font-medium">Start Learning for free</div>
+            <div className="font-medium">Browse Courses</div>
+          </button>
+          <button className="z-10 w-fit  rounded-md  h-14 bg-opacity-50 flex items-center px-8 text-xl bg-black text-white border-white border-[1px]">
+            <div className="font-medium">Join Crash Course</div>
           </button>
         </div>
       </motion.section>
