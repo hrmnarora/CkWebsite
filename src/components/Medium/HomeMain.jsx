@@ -1,10 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { transition1 } from "../../transitions";
-
+import bg from "../../assets/bg.png"
 export const HomeMain = () => {
   return (
-    <div className="bg-gradient-to-t w-full to-[#000008] from-[#0a0337]">
+    <>
+    <div className="main bg-black w-[100vw] bg-cover bg-center bg-streach bg-opacity-20  h-screen" style={{ backgroundImage: `url(${bg})` }}>
       <motion.section
         initial={{ opacity: 0, y: "20%" }}
         animate={{ opacity: 1, y: "0" }}
@@ -34,5 +35,10 @@ export const HomeMain = () => {
         </div>
       </motion.section>
     </div>
+    </>
   );
 };
+
+
+
+

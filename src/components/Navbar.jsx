@@ -19,7 +19,7 @@ export const Navbar = () => {
       <nav
         id="navbar"
         className={`${
-          isMobileMenuOpen ? "bg-[#060617]" : "bg-[#000008]"
+          isMobileMenuOpen ? "bg-[#000000]" : "bg-[#000000]"
         } h-[70px] p-4 shadow-md w-full fixed bg-opacity-60 backdrop-blur-2xl off top-0 z-50 transition-all`}
       >
         <div className="container mx-auto flex justify-between items-center">

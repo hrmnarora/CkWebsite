@@ -1,14 +1,18 @@
 import React from "react";
 import { HomeMain } from "../components/Medium/HomeMain";
 import { Courses } from "../components/Medium/Courses";
+import { Problems } from "../components/Medium/Problems";
+import { Testimonials } from "../components/Medium/Testimonials";
+
 export const Home = () => {
-  
   return (
     <div className=" relative items-center justify-center text-white flex-col  flex w-full">
       {/* home heading  */}
-      <HomeMain/>
-<Courses/>
-      
+      <HomeMain />
+      <Courses />
+      <Problems/>
+      <Testimonials/>
+
       {/* <div class="ProblemsFaced mt-24 z-10 w-[100vw] mb-36 flex items-center flex-col   h-fit">
         <div class="heading w-[90%] text-4xl md:text-5xl py-10  ">
           <h1 class="text-5xl md:text-6xl font-extrabold text-center">
