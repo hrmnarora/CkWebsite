@@ -5,7 +5,7 @@ import bg from "../../assets/bg.png"
 export const HomeMain = () => {
   return (
     <>
-    <div className="main bg-black w-[100vw] bg-cover bg-center bg-streach bg-opacity-20  h-screen" style={{ backgroundImage: `url(${bg})` }}>
+    <div className="main bg-black w-[100vw] bg-cover bg-center bg-streach  h-screen" style={{ backgroundImage: `url(${bg})` }}>
       <motion.section
         initial={{ opacity: 0, y: "20%" }}
         animate={{ opacity: 1, y: "0" }}
@@ -16,7 +16,7 @@ export const HomeMain = () => {
         <div className="headin md:w-[60vw] w-[70vw] z-10">
           <h1 className="text-5xl md:text-7xl lg:7xl text-center  font-bold tracking-tight ">
             Start coding{" "}
-            <span className=" leading-tight bg-gradient-to-r to-[#2b4ae3] from-white text-transparent mr-3 bg-clip-text">
+            <span className=" leading-tight bg-gradient-to-r to-blue-300 from-white text-transparent mr-3 bg-clip-text">
               instantly
             </span>
             with Codekaro
@@ -29,7 +29,7 @@ export const HomeMain = () => {
           </p>
         </div>
         <div className="flex gap-4 flex-col md:flex-row mt-8 items-center justify-center">
-          <button className="z-10 w-fit  rounded-md  h-14 border flex items-center px-8 text-xl bg-white text-zinc-900">
+          <button className="z-10 w-fit  rounded-md  h-14  flex items-center px-8 text-xl bg-blue-300 text-zinc-900">
             <div className="font-medium">Browse Courses</div>
           </button>
           <button className="z-10 w-fit  rounded-md  h-14 bg-opacity-50 flex items-center px-8 text-xl bg-black text-white border-white border-[1px]">

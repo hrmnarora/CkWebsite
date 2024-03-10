@@ -20,11 +20,11 @@ export const Navbar = () => {
         id="navbar"
         className={`${
           isMobileMenuOpen ? "bg-[#000000]" : "bg-[#000000]"
-        } h-[70px] p-4 shadow-md w-full fixed bg-opacity-60 backdrop-blur-2xl off top-0 z-50 transition-all`}
+        } h-[70px] p-4 shadow-md w-full fixed bg-opacity-60 backdrop-blur-2xl  top-0 z-50 transition-all`}
       >
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex gap-4 items-center justify-center">
-            <div className="text-white text-xl font-bold">CodeKaro</div>
+            <div className="text-blue-300 text-xl font-bold">CodeKaro</div>
 
             <div className="hidden text-white ml-24 md:flex gap-8">
               <Navlink text={"Home"} />

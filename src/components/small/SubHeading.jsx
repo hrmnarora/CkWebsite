@@ -16,8 +16,8 @@ export const SubHeading = ({title, type, description}) => {
       >
         <div className="lg:mr-24">
           <div className="w-fit h-fit py-2 flex gap-2 items-center justify-center">
-            <div className="w-2  h-2 md:w-4 md:h-4 bg-[#2b4ae3] rounded-full"></div>
-            <h3 className="text-xl md:text-2xl text-[#2b4ae3]">{type}</h3>
+            <div className="w-2  h-2 md:w-4 md:h-4 bg-blue-300 rounded-full"></div>
+            <h3 className="text-xl md:text-2xl text-blue-300">{type}</h3>
           </div>
           <h1 className="text-3xl md:text-6xl font-bold">
             {title}

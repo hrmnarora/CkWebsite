@@ -7,7 +7,7 @@ import { Testimonials } from "../components/Medium/Testimonials";
 
 export const Home = () => {
   return (
-    <div className=" relative items-center justify-center text-white flex-col  flex w-full">
+    <div className=" relative items-center justify-center text-white flex-col  flex w-[100vw] overflow-hidden">
       {/* home heading  */}
       <HomeMain />
       <Courses />
