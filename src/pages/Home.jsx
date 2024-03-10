@@ -4,6 +4,7 @@ import { Courses } from "../components/Medium/Courses";
 import { Problems } from "../components/Medium/Problems";
 import { PlacedCompanies } from "../components/Medium/PlacedCompanies";
 import { Testimonials } from "../components/Medium/Testimonials";
+import CustomCursor from "../components/Cursor/CustomCurser";
 
 export const Home = () => {
   return (
@@ -14,6 +15,7 @@ export const Home = () => {
       <Problems/>
       <PlacedCompanies/>
       <Testimonials/>
+      <CustomCursor/>
       {/* <div className="bg-black w-full h-fit">
       <svg className="animate-spotlight pointer-events-none absolute z-[1] h-[169%] w-[138%] lg:w-[84%] opacity-0 -top-[40rem] left-0 md:left-60 md:-top-[30rem]" xmlns="http://www.w3.org/2000/svg"></svg>
       </div> */}

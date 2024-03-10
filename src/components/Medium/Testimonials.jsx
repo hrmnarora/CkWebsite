@@ -3,7 +3,7 @@ import { SubHeading } from "../small/SubHeading";
 
 export const Testimonials = () => {
   return (
-    <div className="bg-black w-full h-fit flex items-center justify-center  flex-col">
+    <div className="bg-black z-50 w-full h-fit flex items-center justify-center  flex-col">
       <div className="courses pt-32 bg-black w-[80%] z-10  flex lg:justify-center flex-col  h-fit lg:flex-col">
         <SubHeading
           type={"Testimonials"}

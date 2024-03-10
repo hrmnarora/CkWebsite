@@ -14,10 +14,11 @@ export const HomeMain = () => {
             height: 100vh;
             content: "";
             z-index: 1;
-            opacity:50%;
+            opacity:70%;
             position: absolute;
             inset: 0;
             background:
+              radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%),
               linear-gradient(transparent 0 calc(var(--size) - var(--thickness)), var(--line) calc(var(--size) - var(--thickness)) var(--size)) var(--offset) var(--offset) / var(--size) var(--size),
               linear-gradient(90deg, transparent 0 calc(var(--size) - var(--thickness)), var(--line) calc(var(--size) - var(--thickness)) var(--size)) var(--offset) var(--offset) / var(--size) var(--size)
               ;
@@ -33,7 +34,7 @@ export const HomeMain = () => {
         animate={{ opacity: 1, y: "0" }}
         exit={{ opacity: 0, y: "-50%" }}
         transition={transition1}
-        className="h-[100vh] flex z-50 items-center justify-center flex-col"
+        className="h-[100vh] z-50 flex z-50 items-center justify-center flex-col"
       >
         <div className="headin md:w-[60vw] w-[70vw] z-10">
           <h1 className="text-5xl md:text-7xl lg:7xl text-center  font-bold tracking-tight ">
