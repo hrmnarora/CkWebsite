@@ -11,7 +11,7 @@ export const Problems = () => {
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus repellat maiores molestiae blanditiis voluptatum quos culpa facere eveniet nobis a!"
         }
       />
-      <div className=" w-[80%] flex flex-col gap-2 md:w-[60%] rounded-xl h-[40vh]">
+      <div className=" w-[80%] flex flex-col gap-2 md:w-[80%] rounded-xl h-[60vh]">
         <div className="flex w-full h-[50%] gap-2 ">
           <div className="w-[30%] rounded-xl h-full bg-zinc-900"></div>
           <div className="w-[70%] rounded-xl h-full bg-zinc-900"></div>

@@ -5,16 +5,18 @@ import { Problems } from "../components/Medium/Problems";
 import { PlacedCompanies } from "../components/Medium/PlacedCompanies";
 import { Testimonials } from "../components/Medium/Testimonials";
 import CustomCursor from "../components/Cursor/CustomCurser";
+import { Footer } from "../components/Medium/Footer";
 
 export const Home = () => {
   return (
-    <div className=" relative items-center justify-center text-white flex-col  flex w-[100vw] overflow-hidden">
+    <div className=" relative items-center justify-center bg-black text-white flex-col  flex w-[100vw] overflow-hidden">
       {/* home heading  */}
       <HomeMain />
       <Courses />
       <Problems/>
       <PlacedCompanies/>
       <Testimonials/>
+      <Footer/>
       <CustomCursor/>
       {/* <div className="bg-black w-full h-fit">
       <svg className="animate-spotlight pointer-events-none absolute z-[1] h-[169%] w-[138%] lg:w-[84%] opacity-0 -top-[40rem] left-0 md:left-60 md:-top-[30rem]" xmlns="http://www.w3.org/2000/svg"></svg>

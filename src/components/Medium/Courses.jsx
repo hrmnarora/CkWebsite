@@ -3,19 +3,16 @@ import { SubHeading } from "../small/SubHeading";
 
 export const Courses = () => {   
 
-  
-  
   return (
-
     <> 
     <div
       className="courses pb-24 bg-black w-full z-10  flex items-center lg:justify-center flex-col   h-fit lg:flex-col "
     >
        <SubHeading type ={"Courses"} title={"Industry relevent programs to set you apart"} description={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus repellat maiores molestiae blanditiis voluptatum quos culpa facere eveniet nobis a!"}/>
-      <div className=" w-[85%] select-none md:w-[60%] z-10 mt-4 border-zinc-900 p-10 bg-black bg-opacity-60 rounded-xl flex flex-col lg:flex-row items-center justify-normal  border-[1px] h-fit shadow-md">
+      <div className=" w-[85%] select-none md:w-[80%] z-10 mt-4 border-zinc-900 px-10 bg-black bg-opacity-60 rounded-xl flex flex-col lg:flex-row items-center justify-normal  border-[1px] h-fit shadow-md">
         <div>
-          <h1 className="heading text-2xl font-bold">Full Stack Course</h1>
-          <p className="description mt-4 text-zinc-300 font-medium">
+          <h1 className="heading text-2xl md:text-3xl font-bold">Full Stack Course</h1>
+          <p className="description mt-4 text-xl text-zinc-300 font-medium">
             For individual developers, freelancers, students, and educators that
             want to code faster and happier.
           </p>
@@ -30,7 +27,7 @@ export const Courses = () => {
             </p>
           </div>
           <button className="z-10 w-full  rounded-md mt-6 h-14 border flex justify-center items-center px-8 text-xl bg-white text-zinc-900">
-            <div className="font-medium">Get Now</div>
+            <div className="font-bold text-2xl">Get Now</div>
           </button>
           <p className="text-gray-400 font-medium mt-4 text-sm">
             Free for verified students, teachers, and maintainers of popular
@@ -41,8 +38,8 @@ export const Courses = () => {
         <div className="w-full lg:h-[350px] lg:w-[1px] mx-10 lg:my2 bg-zinc-900 h-[1px] my-12 "></div>
 
         <div>
-          <h1 className="heading text-2xl font-bold">Frontent Course</h1>
-          <p className="description mt-4 text-gray-400 font-medium">
+          <h1 className="heading text-2xl md:text-3xl font-bold">Frontent Course</h1>
+          <p className="description mt-4 text-xl text-gray-400 font-medium">
             For individual developers, freelancers, students, and educators that
             want to code faster and happier.
           </p>
@@ -57,7 +54,7 @@ export const Courses = () => {
             </p>
           </div>
           <button className="z-10 w-full  rounded-md mt-6 h-14 border flex justify-center items-center px-8 text-xl bg-white text-zinc-900">
-            <div className="font-medium">Get Now</div>
+            <div className="font-bold text-2xl">Get Now</div>
           </button>
           <p className="text-gray-400 font-medium mt-4 text-sm">
             Free for verified students, teachers, and maintainers of popular
