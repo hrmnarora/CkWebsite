@@ -15,6 +15,7 @@ export const HomeMain = () => {
             height: 100vh;
             content: "";
             z-index: 1;
+            opacity:30%;
             position: absolute;
             inset: 0;
             background:
