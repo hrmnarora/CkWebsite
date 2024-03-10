@@ -5,7 +5,26 @@ import bg from "../../assets/bg.png"
 export const HomeMain = () => {
   return (
     <>
-    <div className="main bg-black w-[100vw] bg-cover bg-center bg-streach  h-screen" style={{ backgroundImage: `url(${bg})` }}>
+     <style>
+        {`
+          .checkbox-bg::before {
+            --size: 50px;
+            --line: hsl(0 0% 100% / 0.13);
+            --thickness: 2px;
+            --offset: 60px;
+            height: 100vh;
+            content: "";
+            z-index: 1;
+            position: absolute;
+            inset: 0;
+            background:
+              linear-gradient(transparent 0 calc(var(--size) - var(--thickness)), var(--line) calc(var(--size) - var(--thickness)) var(--size)) var(--offset) var(--offset) / var(--size) var(--size),
+              linear-gradient(90deg, transparent 0 calc(var(--size) - var(--thickness)), var(--line) calc(var(--size) - var(--thickness)) var(--size)) var(--offset) var(--offset) / var(--size) var(--size)
+              ;
+          }
+        `}
+      </style>
+    <div  className="main checkbox-bg bg-black w-[100vw] bg-cover bg-center bg-streach  h-screen">
       <motion.section
         initial={{ opacity: 0, y: "20%" }}
         animate={{ opacity: 1, y: "0" }}

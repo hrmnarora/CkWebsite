@@ -1,8 +1,14 @@
 import React from "react";
 import { SubHeading } from "../small/SubHeading";
+
 export const Courses = () => {   
 
+  
+  
   return (
+
+    <>
+     
     <div
       className="courses pb-24 bg-black w-full z-10  flex items-center lg:justify-center flex-col   h-fit lg:flex-col "
     >
@@ -62,5 +68,6 @@ export const Courses = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
