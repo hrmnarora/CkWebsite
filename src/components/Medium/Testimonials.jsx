@@ -14,7 +14,7 @@ export const Testimonials = () => {
         />
       </div>
 
-      <div className="w-[80%] mt-10 md:w-[80%] h-[200vh] md:h-[80vh] flex-col md:flex-row rounded-3xl flex gap-4">
+      <div className="w-[80%] mt-10 md:w-[80%] md:h-fit  flex-col md:flex-row rounded-3xl flex gap-4">
         <div className="md:w-[33%]  md:h-full h-fit w-full gap-5 flex flex-col">
           <div className="w-full p-5 h-fit bg-zinc-950 border-[1px] border-zinc-900 rounded-xl">
             <div>
