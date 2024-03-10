@@ -13,7 +13,7 @@ export const Footer = () => {
             Now
           </h1>
           <button className="z-10 w-fit mt-5 select-none rounded-md  h-14 bg-opacity-50 flex items-center px-8 text-xl hover:bg-white hover:text-black transition-all bg-black text-white border-white border-[1px]">
-            <div className="font-medium text-2xl">Join Crash Course Now!</div>
+            <div className="font-medium text-xl md:text-2xl">Join Crash Course Now!</div>
           </button>
             </div>
 

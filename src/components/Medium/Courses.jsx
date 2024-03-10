@@ -9,7 +9,7 @@ export const Courses = () => {
       className="courses pb-24 bg-black w-full z-10  flex items-center lg:justify-center flex-col   h-fit lg:flex-col "
     >
        <SubHeading type ={"Courses"} title={"Industry relevent programs to set you apart"} description={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus repellat maiores molestiae blanditiis voluptatum quos culpa facere eveniet nobis a!"}/>
-      <div className=" w-[85%] select-none md:w-[80%] z-10 mt-4 border-zinc-900 px-10 bg-black bg-opacity-60 rounded-xl flex flex-col lg:flex-row items-center justify-normal  border-[1px] h-fit shadow-md">
+      <div className=" w-[85%] select-none md:w-[80%] z-10 mt-4 py-10 border-zinc-900 px-10 bg-black bg-opacity-60 rounded-xl flex flex-col lg:flex-row items-center justify-normal  border-[1px] h-fit shadow-md">
         <div>
           <h1 className="heading text-2xl md:text-3xl font-bold">Full Stack Course</h1>
           <p className="description mt-4 text-xl text-zinc-300 font-medium">
