@@ -18,7 +18,7 @@ export const HomeMain = () => {
             position: absolute;
             inset: 0;
             background:
-              radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%),
+            radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 93%),
               linear-gradient(transparent 0 calc(var(--size) - var(--thickness)), var(--line) calc(var(--size) - var(--thickness)) var(--size)) var(--offset) var(--offset) / var(--size) var(--size),
               linear-gradient(90deg, transparent 0 calc(var(--size) - var(--thickness)), var(--line) calc(var(--size) - var(--thickness)) var(--size)) var(--offset) var(--offset) / var(--size) var(--size)
               ;

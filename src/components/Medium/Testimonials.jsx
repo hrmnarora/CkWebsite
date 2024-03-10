@@ -7,7 +7,7 @@ export const Testimonials = () => {
       <div className="courses pt-32 bg-black w-[80%] z-10  flex lg:justify-center flex-col  h-fit lg:flex-col">
         <SubHeading
           type={"Testimonials"}
-          title={"what students said about codekaro"}
+          title={"What students said about codekaro"}
           description={
             "Lorem ipsum Accusamus repellat maiores molestiae blanditiis voluptatum quos culpa facere eveniet nobis a!"
           }

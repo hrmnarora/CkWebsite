@@ -7,14 +7,12 @@ export const Courses = () => {
   
   return (
 
-    <>
-     
+    <> 
     <div
       className="courses pb-24 bg-black w-full z-10  flex items-center lg:justify-center flex-col   h-fit lg:flex-col "
     >
        <SubHeading type ={"Courses"} title={"Industry relevent programs to set you apart"} description={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus repellat maiores molestiae blanditiis voluptatum quos culpa facere eveniet nobis a!"}/>
-
-      <div className=" w-[85%] md:w-[60%]  mt-4 border-[#313131] p-10 bg-black bg-opacity-20 rounded-xl flex flex-col lg:flex-row items-center justify-normal  border-[1px] h-fit shadow-md">
+      <div className=" w-[85%] select-none md:w-[60%] z-10 mt-4 border-zinc-900 p-10 bg-black bg-opacity-60 rounded-xl flex flex-col lg:flex-row items-center justify-normal  border-[1px] h-fit shadow-md">
         <div>
           <h1 className="heading text-2xl font-bold">Full Stack Course</h1>
           <p className="description mt-4 text-zinc-300 font-medium">
@@ -40,7 +38,7 @@ export const Courses = () => {
           </p>
         </div>
 
-        <div className="w-full lg:h-[350px] lg:w-[1px] mx-10 lg:my2 bg-zinc-700 h-[1px] my-12 "></div>
+        <div className="w-full lg:h-[350px] lg:w-[1px] mx-10 lg:my2 bg-zinc-900 h-[1px] my-12 "></div>
 
         <div>
           <h1 className="heading text-2xl font-bold">Frontent Course</h1>
