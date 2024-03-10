@@ -18,7 +18,7 @@ const CustomCursor = () => {
   }, []);
 
   return (
-    <div className="custom-cursor" style={{ left: position.x, top: position.y }} />
+    <div className="custom-cursor hidden md:flex" style={{ left: position.x, top: position.y }} />
   );
 };
 
