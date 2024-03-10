@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { transition1 } from "../../transitions";
-import bg from "../../assets/bg.png"
 export const HomeMain = () => {
   return (
     <>
@@ -25,13 +24,16 @@ export const HomeMain = () => {
           }
         `}
       </style>
-    <div  className="main checkbox-bg bg-black w-[100vw] bg-cover bg-center bg-streach  h-screen">
+    <div className="main checkbox-bg relative bg-black w-[100vw] bg-cover bg-center bg-streach  h-screen" >
+      <div className="w-full h-full absolute top-0 ">
+
+      </div>
       <motion.section
         initial={{ opacity: 0, y: "20%" }}
         animate={{ opacity: 1, y: "0" }}
         exit={{ opacity: 0, y: "-50%" }}
         transition={transition1}
-        className="h-[100vh] flex items-center justify-center flex-col"
+        className="h-[100vh] flex z-50 items-center justify-center flex-col"
       >
         <div className="headin md:w-[60vw] w-[70vw] z-10">
           <h1 className="text-5xl md:text-7xl lg:7xl text-center  font-bold tracking-tight ">
