@@ -20,7 +20,7 @@ export const Testimonials = () => {
             <div>
               <p className="text-xl ">“A lot of advanced web dev topics taught at codekaro taught by ashish sir gave me an edge over my peers, and I ultimately absorbed more here than I ever did anywhere else.”</p>
             </div>
-            <div className="w-[90%] h-[1px] bg-zinc-700 mt-3"></div>
+            <div className="w-[90%] h-[1px] mt-3 bg-gradient-to-r to-black from-blue-300 "></div>
             <div className="mt-3 flex gap-3">
               <div className="w-12 h-12 rounded-full bg-zinc-400">
               </div>
@@ -34,7 +34,7 @@ export const Testimonials = () => {
             <div>
               <p className="text-xl "><span className="bg-blue-200 font-semibold text-black mx-1 pl-1">"It was great learnig with codekaro. </span> It helped in gaining enough experience to get my internship”</p>
             </div>
-            <div className="w-[90%] h-[1px] bg-zinc-700 mt-3"></div>
+            <div className="w-[90%] h-[1px] mt-3 bg-gradient-to-r to-black from-blue-300 "></div>
             <div className="mt-3 flex gap-3">
               <div className="w-12 h-12 rounded-full bg-zinc-400">
               </div>
@@ -50,7 +50,7 @@ export const Testimonials = () => {
             <div>
               <p className="text-xl ">“The course is well designed and assignments are quite exciting. It has all the levels of problems beginning from easy to hard, evenly distributed to motivate you. <br /><span className="bg-blue-200  font-semibold text-black pl-1"> I would say that it was the best decision to choose an online course at Codekaro”</span></p>
             </div>
-            <div className="w-[90%] h-[1px] bg-zinc-700 mt-3"></div>
+            <div className="w-[90%] h-[1px] mt-3 bg-gradient-to-r to-black from-blue-300 "></div>
             <div className="mt-3 flex gap-3">
               <div className="w-12 h-12 rounded-full bg-zinc-400">
               </div>
@@ -64,7 +64,7 @@ export const Testimonials = () => {
             <div>
               <p className="text-xl ">“I have completed two courses with Codekaro. The faculty were awesome and highlighted every important aspect of the course and the subject in general. Their focus was to solve all my doubts so that I can level up my coding journey.”</p>
             </div>
-            <div className="w-[90%] h-[1px] bg-zinc-700 mt-3"></div>
+            <div className="w-[90%] h-[1px] mt-3 bg-gradient-to-r to-black from-blue-300 "></div>
             <div className="mt-3 flex gap-3">
               <div className="w-12 h-12 rounded-full bg-zinc-400">
               </div>
@@ -80,7 +80,7 @@ export const Testimonials = () => {
             <div>
               <p className="text-xl ">“The course is very well organized.And as a front-end developer, I am much confident now.”</p>
             </div>
-            <div className="w-[90%] h-[1px] bg-zinc-700 mt-3"></div>
+            <div className="w-[90%] h-[1px] mt-3 bg-gradient-to-r to-black from-blue-300 "></div>
             <div className="mt-3 flex gap-3">
               <div className="w-12 h-12 rounded-full bg-zinc-400">
               </div>
@@ -94,7 +94,7 @@ export const Testimonials = () => {
             <div>
               <p className="text-xl ">“Python course was well designed, easy to learn even if you are new to coding. Great value for money.”</p>
             </div>
-            <div className="w-[90%] h-[1px] bg-zinc-700 mt-3"></div>
+            <div className="w-[90%] h-[1px] mt-3 bg-gradient-to-r to-black from-blue-300 "></div>
             <div className="mt-3 flex gap-3">
               <div className="w-12 h-12 rounded-full bg-zinc-400">
               </div>

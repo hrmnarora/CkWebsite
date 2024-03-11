@@ -14,9 +14,9 @@ export const SubHeading = ({title, type, description}) => {
         animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -20 }}
         transition={{ duration: 0.8 ,delay: .5}}
       >
-        <div className="lg:mr-24 md:w-[80%]">
-          <div className="w-fit h-fit py-2 flex gap-2 items-center justify-center">
-            <div className="w-2  h-2 md:w-4 md:h-4 bg-blue-300 rounded-full"></div>
+        <div className="group lg:mr-24 md:w-[80%]">
+          <div className="w-fit h-fit py-2 flex gap-4 items-center justify-center">
+            <div className="w-[5px]  h-[5px] group-hover:scale-[300%] transition-all md:w-1 md:h-1 bg-blue-300 rounded-full"></div>
             <h3 className="text-xl md:text-2xl text-blue-300">{type}</h3>
           </div>
           <h1 className="text-3xl shadow-lg md:text-6xl font-bold">
