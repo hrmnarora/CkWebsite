@@ -3,8 +3,7 @@ import { Navlink } from "./small/Navlink";
 import MobileMenu from "./MobileMenu";
 import { motion, useScroll } from "framer-motion"
 
-export const Navbar = () => {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+export const Navbar = ({setIsMobileMenuOpen,isMobileMenuOpen}) => {
   const { scrollYProgress } = useScroll();
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);

@@ -8,6 +8,7 @@ import CustomCursor from "../components/Cursor/CustomCurser";
 import { Footer } from "../components/Medium/Footer";
 
 export const Home = () => {
+
   return (
     <div className=" relative items-center justify-center bg-black text-white flex-col  flex w-[100vw] overflow-hidden">
       {/* home heading  */}
