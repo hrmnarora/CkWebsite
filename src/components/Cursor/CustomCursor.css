@@ -1,12 +1,13 @@
 /* CustomCursor.css */
 .custom-cursor {
-    position: fixed;
-    width: 90vw;
-    height: 90vw;
+    position: absolute;
+    z-index: 10;
+    width: 60vw;
+    height: 60vw;
     border-radius: 50%;
     pointer-events: none;
-    background: radial-gradient(circle, rgba(147, 196, 253, 0.09) 0%, rgba(31,147,158,0) 65%);
-    transform: translate(-50%, -50%);
+    background: radial-gradient(circle, rgba(147, 196, 253, 0.121) 0%, rgba(31,147,158,0) 65%);
+    transform: translate(-65%, -75%);
     z-index: 1;
     filter: blur(100);
   }

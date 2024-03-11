@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { Navlink } from "./small/Navlink";
 import MobileMenu from "./MobileMenu";
+import { motion, useScroll } from "framer-motion"
 
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
+  const { scrollYProgress } = useScroll();
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
@@ -20,9 +21,9 @@ export const Navbar = () => {
         id="navbar"
         className={`${
           isMobileMenuOpen ? "bg-[#000000]" : "bg-[#000000]"
-        } h-[70px] p-4 shadow-md w-full fixed bg-opacity-60 backdrop-blur-2xl  top-0 z-50 transition-all`}
+        } h-fit  flex items-center  flex-col shadow-md w-full fixed bg-opacity-60 backdrop-blur-2xl  top-0 z-50 transition-all`}
       >
-        <div className="container mx-auto flex justify-between items-center">
+        <div className="container my-3 flex justify-between items-center">
           <div className="flex gap-4 items-center justify-center">
             <div className="text-blue-300 text-xl font-bold">CodeKaro</div>
 
@@ -79,6 +80,8 @@ export const Navbar = () => {
             </button>
           </div>
         </div>
+      <motion.div style={{ scaleX: scrollYProgress }} className=" h-[1px] w-full bg-gradient-to-r from-black via-blue-300 to-black"></motion.div>
+
       </nav>
     </>
   );
