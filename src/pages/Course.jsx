@@ -2,7 +2,7 @@ import React from "react";
 
 const Course = () => {
   return (
-    <div className="w-[100vw] flex-wrap  px-32 h-fit pt-32 bg-black gap-24 flex justify-start items-center">
+    <div className="w-[100vw] flex-wrap px-2 md:px-32 h-fit pt-32 bg-black gap-24 flex justify-start items-center">
       <div className="Coursecard cursor-pointer z-10  bg-black  md:w-[30vw] w-[80vw] bg-opacity-20  transition-all border-zinc-900 border-[.5px] rounded-xl overflow-hidden">
         <div className="img w-full h-[200px] bg-zinc-900"></div>
         <div className="p-6 w-full h-full">
