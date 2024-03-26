@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import { Home } from "./pages/Home";
 import MobileMenu from "./components/MobileMenu";
+import Course from "./pages/Course";
+import About from "./pages/About";
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -35,6 +37,8 @@ function App() {
         <MobileMenu isMobileMenuOpen={isMobileMenuOpen} />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/courses" element={<Course/>} />
+          <Route path="/about" element={<About/>} />
         </Routes>
       </BrowserRouter>
     </>
