@@ -16,7 +16,6 @@ export const Footer = () => {
             <div className="font-medium text-xl md:text-2xl">Join Crash Course Now!</div>
           </button>
             </div>
-
             <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
                 <span className="text-sm  sm:text-center text-gray-400">© 2023 <a href="https://flowbite.com/"
                         className="hover:underline">Flowbite™</a>. All Rights Reserved.

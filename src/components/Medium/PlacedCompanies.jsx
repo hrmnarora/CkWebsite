@@ -12,7 +12,7 @@ export const PlacedCompanies = () => {
     <div className="courses overflow-hidden pb-24 pt-32 bg-black w-full z-10  flex items-center lg:justify-center flex-col   h-fit lg:flex-col">
       <SubHeading
         type={"placed"}
-        title={"our students placed in top companies"}
+        title={"Our students placed in top companies"}
         description={
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus repellat maiores molestiae blanditiis voluptatum quos culpa facere eveniet nobis a!"
         }

@@ -22,7 +22,7 @@ export const Navbar = ({setIsMobileMenuOpen,isMobileMenuOpen}) => {
           isMobileMenuOpen ? "bg-[#000000]" : "bg-[#000000]"
         } h-fit  flex items-center  flex-col shadow-md w-full fixed bg-opacity-60 backdrop-blur-2xl  top-0 z-50 transition-all`}
       >
-        <div className="container px-5 my-3 flex justify-between items-center">
+        <div className="container px-5 py-4 flex justify-between items-center">
           <div className="flex gap-4 items-center justify-center">
             <div className="text-blue-300 text-xl font-bold">CodeKaro</div>
 
