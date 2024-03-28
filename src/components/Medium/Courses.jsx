@@ -1,6 +1,7 @@
 import React from "react";
 import { SubHeading } from "../small/SubHeading";
 import CustomCursor from "../Cursor/CustomCurser";
+import { Navlink } from './../small/Navlink';
 export const Courses = () => {   
 
   return (
@@ -65,6 +66,11 @@ export const Courses = () => {
           </p>
         </div>
       </div>
+      <div className="mt-5">
+      <Navlink text={"Explore All Courses >"} address={"/courses"} />
+
+      </div>
+
     </div>
 
     </>

@@ -1,7 +1,7 @@
 import React from "react";
 import MobileMenu from "./MobileMenu";
 import { motion, useScroll } from "framer-motion"
-import { NavLink } from "react-router-dom";
+import { Navlink } from "./small/Navlink";
 
 export const Navbar = ({setIsMobileMenuOpen,isMobileMenuOpen}) => {
   const { scrollYProgress } = useScroll();
@@ -24,12 +24,12 @@ export const Navbar = ({setIsMobileMenuOpen,isMobileMenuOpen}) => {
       >
         <div className="container px-5 py-4 flex justify-between items-center">
           <div className="flex gap-4 items-center justify-center">
-            <div className="text-blue-300 text-xl font-bold">CodeKaro</div>
+            <a href="/" className="text-blue-300 text-xl font-bold">CodeKaro</a>
 
             <div className="hidden text-white ml-24 md:flex gap-8">
-              <NavLink to="/">Home</NavLink>
-              <NavLink to="/courses">Courses</NavLink>
-              <NavLink to="/about">About</NavLink>
+            <Navlink text={"Home"} address={"/"} />
+        <Navlink text={"Courses"} address={"/courses"} />
+        <Navlink text={"About"} address={"/about"}  />
             </div>
           </div>
           <div className="hidden md:flex space-x-4">
