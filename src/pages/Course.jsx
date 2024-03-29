@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CourseCard from "../components/Medium/CourseCard";
+import Transition from "../Transition";
 
 const Course = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="pt-32 w-fit h-fit bg-black text-white">
       <div className=" flex items-center justify-center py-10 pb-20">
@@ -18,4 +22,4 @@ const Course = () => {
       </div>
   );
 };
-export default Course;
+export default Transition(Course);

@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
-import { Home } from "./pages/Home";
 import MobileMenu from "./components/MobileMenu";
-import Course from "./pages/Course";
-import About from "./pages/About";
+import MyRoutes from "./MyRoutes";
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -23,9 +21,9 @@ function App() {
       document.body.style.overflow = "auto";
     };
   }, [isMobileMenuOpen]);
-  useEffect(()=>{
-    document.body.style.overflowX = "hidden"
-  })
+  useEffect(() => {
+    document.body.style.overflowX = "hidden";
+  });
 
   return (
     <>
@@ -35,11 +33,7 @@ function App() {
           setIsMobileMenuOpen={setIsMobileMenuOpen}
         />
         <MobileMenu isMobileMenuOpen={isMobileMenuOpen} />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/courses" element={<Course/>} />
-          <Route path="/about" element={<About/>} />
-        </Routes>
+        <MyRoutes/>
       </BrowserRouter>
     </>
   );

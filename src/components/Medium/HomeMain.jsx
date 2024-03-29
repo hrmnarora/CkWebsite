@@ -29,10 +29,10 @@ export const HomeMain = () => {
       <div className="w-full h-full absolute top-0 ">
       </div>
       <motion.section
-        initial={{ opacity: 0, y: "20%" }}
-        animate={{ opacity: 1, y: "0" }}
-        exit={{ opacity: 0, y: "-50%" }}
-        transition={transition1}
+        // initial={{ opacity: 0, y: "20%" }}
+        // animate={{ opacity: 1, y: "0" }}
+        // exit={{ opacity: 0, y: "-50%" }}
+        // transition={transition1}
         className="h-[100vh] flex z-50 items-center justify-center flex-col"
       >
         <div className="checkbox-bg w-full"></div>
