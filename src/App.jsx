@@ -3,7 +3,6 @@ import { BrowserRouter } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import MobileMenu from "./components/MobileMenu";
 import MyRoutes from "./MyRoutes";
-
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 

@@ -16,7 +16,11 @@ export const SubHeading = ({title, type, description}) => {
       >
         <div className="group lg:mr-24 md:w-[80%]">
           <div className="w-fit h-fit py-2 flex gap-4 items-center justify-center">
-            <div className="w-[5px]  h-[5px] group-hover:scale-[300%] transition-all md:w-1 md:h-1 bg-blue-300 rounded-full"></div>
+          <div class="relative inline-flex">
+        <div class="w-4 h-4 bg-blue-300 rounded-full"></div>
+        <div class="w-4 h-4 bg-blue-300 rounded-full absolute top-0 left-0 animate-ping"></div>
+        <div class="w-4 h-4 bg-blue-300 rounded-full absolute top-0 left-0 animate-pulse"></div>
+    </div>
             <h3 className="text-xl md:text-2xl text-blue-300">{type}</h3>
           </div>
           <h1 className="text-3xl shadow-lg md:text-6xl font-bold">
