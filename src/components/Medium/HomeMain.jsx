@@ -9,7 +9,7 @@ export const HomeMain = () => {
         {`
           .checkbox-bg::before {
             --size: 50px;
-            --line: hsl(0 0% 100% / 0.13);
+            --line: hsl(206.71,89.02%,67.84%,0.5);
             --thickness: 2px;
             --offset: 60px;
             height: 100vh;
@@ -19,7 +19,7 @@ export const HomeMain = () => {
             position: absolute;
             inset: 0;
             background:
-            radial-gradient(ellipse at center, rgba(9,9,11,.4) 0%, rgba(9,9,11,1) 80%),
+            radial-gradient(ellipse at center, rgba(9,9,11,.4) 0%, rgba(9,9,11,.8) 20%, rgba(9,9,11,1) 80%),
               linear-gradient(transparent 0 calc(var(--size) - var(--thickness)), var(--line) calc(var(--size) - var(--thickness)) var(--size)) var(--offset) var(--offset) / var(--size) var(--size),
               linear-gradient(90deg, transparent 0 calc(var(--size) - var(--thickness)), var(--line) calc(var(--size) - var(--thickness)) var(--size)) var(--offset) var(--offset) / var(--size) var(--size)
               ;
