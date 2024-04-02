@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { transition1 } from "../../transitions";
+import CustomCursor from "../Cursor/CustomCurser";
 export const HomeMain = () => {
   return (
     <>
@@ -18,14 +19,15 @@ export const HomeMain = () => {
             position: absolute;
             inset: 0;
             background:
-            radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 93%),
+            radial-gradient(ellipse at center, rgba(9,9,11,.4) 0%, rgba(9,9,11,1) 80%),
               linear-gradient(transparent 0 calc(var(--size) - var(--thickness)), var(--line) calc(var(--size) - var(--thickness)) var(--size)) var(--offset) var(--offset) / var(--size) var(--size),
               linear-gradient(90deg, transparent 0 calc(var(--size) - var(--thickness)), var(--line) calc(var(--size) - var(--thickness)) var(--size)) var(--offset) var(--offset) / var(--size) var(--size)
               ;
           }
         `}
       </style>
-    <div className="main z-10  relative bg-black w-[100vw] bg-cover bg-center bg-streach  h-screen" >
+    <div className="main z-10  relative bg-zinc-950  w-[100vw] bg-cover bg-center bg-streach  h-screen" >
+
       <div className="w-full h-full absolute top-0 ">
       </div>
       <motion.section
@@ -56,7 +58,7 @@ export const HomeMain = () => {
             <h1
              className="font-medium">Browse Courses</h1>
           </button>
-          <button className="z-50 w-fit hover:bg-white hover:text-black transition-all cursor-pointer rounded-md  h-14 bg-opacity-100 flex items-center px-8 text-xl bg-black text-white border-white border-[1px]">
+          <button className="z-50 w-fit hover:bg-white hover:text-black transition-all cursor-pointer rounded-md  h-14 bg-opacity-100 flex items-center px-8 text-xl bg-zinc-950 text-white border-white border-[1px]">
             <h1 className="font-medium">Join Crash Course</h1>
           </button>
         </div>

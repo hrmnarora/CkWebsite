@@ -5,11 +5,11 @@ import { SubHeading } from "../small/SubHeading";
 export const PlacedCompanies = () => {
   const gradientStyle = {
     background:
-      "linear-gradient(to left, black, transparent 30%, transparent 70%, black",
+      "linear-gradient(to left, #09090B, transparent 30%, transparent 70%, #09090B",
     zIndex: 20,
   };
   return (
-    <div className="courses overflow-hidden pb-24 pt-32 bg-black w-full z-10  flex items-center lg:justify-center flex-col   h-fit lg:flex-col">
+    <div className="courses overflow-hidden pb-24 pt-32 bg-zinc-950 w-full z-10  flex items-center lg:justify-center flex-col   h-fit lg:flex-col">
       <SubHeading
         type={"placed"}
         title={"Our students placed in top companies"}

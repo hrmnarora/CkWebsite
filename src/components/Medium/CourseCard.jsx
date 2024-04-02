@@ -12,7 +12,7 @@ const CourseCard = () => {
          initial={{ opacity: 0 }} // Initial opacity set to 0 and translateY to 50px (off-screen)
          animate={{ opacity: inView ? 1 : 0 }} // Fade in and translate to 0 when in view, otherwise fade out and translate off-screen
          transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }} // Set ease to easeOut for smoother transition
-         className="Coursecard cursor-pointer z-10  bg-black  lg:w-[30vw] w-[80vw] bg-opacity-20  transition-all border-zinc-900 border-[.5px] rounded-xl overflow-hidden"
+         className="Coursecard cursor-pointer z-10  bg-zinc-950  lg:w-[30vw] w-[80vw] bg-opacity-20  transition-all border-zinc-900 border-[.5px] rounded-xl overflow-hidden"
       >
         <div className="img w-full h-[200px] bg-zinc-900"></div>
         <div className="p-6 w-full h-full">

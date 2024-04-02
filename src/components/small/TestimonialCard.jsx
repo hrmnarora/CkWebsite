@@ -4,7 +4,7 @@ export const TestimonialCard = ({testimonial,index}) => {
   return (
     <div
           key={index}
-          className="testicard cursor-pointer z-10  bg-black  md:w-[25vw] w-[80vw] bg-opacity-20  transition-all border-zinc-500 border-[.5px] rounded-xl p-6"
+          className="testicard cursor-pointer z-10  bg-zinc-950  md:w-[25vw] w-[80vw] bg-opacity-20  transition-all border-zinc-500 border-[.5px] rounded-xl p-6"
         >
           <div className="text text-md md:text-lg font-med text-white">
             <p className="leading-7">{testimonial.quote}</p>

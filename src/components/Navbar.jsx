@@ -19,7 +19,7 @@ export const Navbar = ({setIsMobileMenuOpen,isMobileMenuOpen}) => {
       <nav
         id="navbar"
         className={`${
-          isMobileMenuOpen ? "bg-[#000000]" : "bg-[#000000]"
+          isMobileMenuOpen ? "bg-zinc-950" : "bg-zinc-950"
         } h-fit  flex items-center  flex-col shadow-md w-full fixed bg-opacity-60 backdrop-blur-2xl  top-0 z-50 transition-all`}
       >
         <div className="container px-5 py-4 flex justify-between items-center">

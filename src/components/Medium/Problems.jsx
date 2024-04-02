@@ -7,7 +7,7 @@ import ic4 from "../../assets/ic4.png";
 
 export const Problems = () => {
   return (
-    <div className="courses pb-24 pt-32 bg-zinc-950 w-full z-10  flex items-center lg:justify-center flex-col  h-fit lg:flex-col">
+    <div className="courses pb-24 pt-32 bg-black  w-full z-10  flex items-center lg:justify-center flex-col  h-fit lg:flex-col">
       {/* <SubHeading
         type={"Why Join Us?"}
         title={"Why To Choose CodeKaro"}

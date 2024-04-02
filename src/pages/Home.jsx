@@ -13,7 +13,7 @@ const Home = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className=" relative items-center justify-center bg-black text-white flex-col  flex w-[100vw] overflow-hidden">
+    <div className=" relative items-center justify-center bg-zinc-950 text-white flex-col  flex w-[100vw] overflow-hidden">
       {/* home heading  */}
       <HomeMain />
       <Courses />

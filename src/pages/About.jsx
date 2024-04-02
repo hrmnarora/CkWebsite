@@ -5,7 +5,7 @@ const About = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className='w-[100vw] text-white h-[100vh] bg-black flex items-center justify-center'>About</div>
+    <div className='w-[100vw] text-white h-[100vh] bg-zinc-950 flex items-center justify-center'>About</div>
   )
 }
 

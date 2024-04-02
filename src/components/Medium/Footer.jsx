@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <footer className="w-full z-10  flex bg-black items-center flex-col p-5 justify-center rounded-lg shadow pt-10 ">
+    <footer className="w-full z-10  flex bg-zinc-950 items-center flex-col p-5 justify-center rounded-lg shadow pt-10 ">
 
             <div className='w-[80%] py-20 flex flex-col items-center justify-center  rounded-2xl  my-10'>
             <h1 className="text-5xl select-none md:text-7xl lg:7xl text-center  font-bold tracking-tight ">
@@ -12,7 +12,7 @@ export const Footer = () => {
             </span>
             Now
           </h1>
-          <button className="z-10 w-fit mt-5 select-none rounded-md  h-14 bg-opacity-50 flex items-center px-8 text-xl hover:bg-white hover:text-black transition-all bg-black text-white border-white border-[1px]">
+          <button className="z-10 w-fit mt-5 select-none rounded-md  h-14 bg-opacity-50 flex items-center px-8 text-xl hover:bg-white hover:text-black transition-all bg-zinc-950 text-white border-white border-[1px]">
             <div className="font-medium text-xl md:text-2xl">Join Crash Course Now!</div>
           </button>
             </div>
